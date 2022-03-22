@@ -1,0 +1,22 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "jsx-a11y/alt-text": "off",
+    "react/display-name": "off",
+    "react/no-children-prop": "off",
+    "react/jsx-max-props-per-line": [
+      1,
+      {
+        "maximum": 1
+      }
+    ],
+    "quotes": ["error", "single"],
+    // we want to force semicolons
+    "semi": ["error", "never"],
+    // we use 2 spaces to indent our code
+    "indent": ["error", 2],
+    // we want to avoid extraneous spaces
+    "no-multi-spaces": ["error"]
+  }
+}
