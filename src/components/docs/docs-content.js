@@ -133,7 +133,6 @@ const DocsContentRoot = styled('div')(({ theme }) => ({
 
 export const DocsContent = (props) => {
   const { content } = props
-  console.log(content)
 
   return (
     <DocsContentRoot>
